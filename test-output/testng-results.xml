@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7172" started-at="2019-03-24T16:43:30Z" finished-at="2019-03-24T16:43:37Z">
+  <suite name="Default suite" duration-ms="12497" started-at="2019-03-31T15:26:30Z" finished-at="2019-03-31T15:26:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7172" started-at="2019-03-24T16:43:30Z" finished-at="2019-03-24T16:43:37Z">
-      <class name="test.facebook.LoginFacebook">
-        <test-method status="PASS" signature="testfacebookSignUp()[pri:0, instance:test.facebook.LoginFacebook@73035e27]" name="testfacebookSignUp" duration-ms="7142" started-at="2019-03-24T12:43:30Z" finished-at="2019-03-24T12:43:37Z">
+    <test name="Default test" duration-ms="12497" started-at="2019-03-31T15:26:30Z" finished-at="2019-03-31T15:26:42Z">
+      <class name="test.facebook.FacebookEmailandPassword">
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:test.facebook.FacebookEmailandPassword@5474c6c]" name="beforeEachTest" is-config="true" duration-ms="9869" started-at="2019-03-31T11:26:30Z" finished-at="2019-03-31T11:26:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testfacebookSignUp -->
-      </class> <!-- test.facebook.LoginFacebook -->
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="testFacebookEmailPass()[pri:0, instance:test.facebook.FacebookEmailandPassword@5474c6c]" name="testFacebookEmailPass" duration-ms="473" started-at="2019-03-31T11:26:39Z" finished-at="2019-03-31T11:26:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFacebookEmailPass -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:test.facebook.FacebookEmailandPassword@5474c6c]" name="afterEachTest" is-config="true" duration-ms="2137" started-at="2019-03-31T11:26:40Z" finished-at="2019-03-31T11:26:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- test.facebook.FacebookEmailandPassword -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
