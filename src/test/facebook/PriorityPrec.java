@@ -23,5 +23,14 @@ public class PriorityPrec {
 		System.out.println("Skipped the test");
 		throw new SkipException("use ticket name -requirment changed to skipping it");
 	}
+	//@Test(enabled=false)
+	//public void dontRunThisTest(){
+	//	System.out.println("do not run this test");
+	//}
+	@Test(enabled=true,priority=5)
+	public void RunThisTest(){
+		System.out.println(" run this test");
+	}
+	
 	
 }
