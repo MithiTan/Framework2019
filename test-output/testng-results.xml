@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26" started-at="2019-03-31T16:26:57Z" finished-at="2019-03-31T16:26:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26" started-at="2019-03-31T16:26:57Z" finished-at="2019-03-31T16:26:57Z">
+      <class name="test.facebook.PracticeAssert">
+        <test-method status="PASS" signature="trycatchTest()[pri:0, instance:test.facebook.PracticeAssert@71e7a66b]" name="trycatchTest" duration-ms="8" started-at="2019-03-31T12:26:57Z" finished-at="2019-03-31T12:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trycatchTest -->
+      </class> <!-- test.facebook.PracticeAssert -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
