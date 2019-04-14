@@ -1,97 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Sanity Suite" duration-ms="36" started-at="2019-04-14T15:52:45Z" finished-at="2019-04-14T15:52:45Z">
+  <suite name="Regression Suite" duration-ms="42" started-at="2019-04-14T16:16:58Z" finished-at="2019-04-14T16:16:58Z">
     <groups>
       <group name="regression">
-        <method signature="GroupingOn.Consulting2()[pri:0, instance:test.facebook.GroupingOn@2cfb4a64]" name="Consulting2" class="test.facebook.GroupingOn"/>
-        <method signature="GroupingOn.talentTEK_Consulting()[pri:0, instance:test.facebook.GroupingOn@2cfb4a64]" name="talentTEK_Consulting" class="test.facebook.GroupingOn"/>
+        <method signature="GroupingOn.Consulting2()[pri:0, instance:test.facebook.GroupingOn@50cbc42f]" name="Consulting2" class="test.facebook.GroupingOn"/>
+        <method signature="GroupingOn.talentTEK_Consulting()[pri:0, instance:test.facebook.GroupingOn@50cbc42f]" name="talentTEK_Consulting" class="test.facebook.GroupingOn"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="GroupingOn.talentTEK1()[pri:0, instance:test.facebook.GroupingOn@2cfb4a64]" name="talentTEK1" class="test.facebook.GroupingOn"/>
-        <method signature="GroupingOn.talentTEK_Consulting()[pri:0, instance:test.facebook.GroupingOn@2cfb4a64]" name="talentTEK_Consulting" class="test.facebook.GroupingOn"/>
+        <method signature="GroupingOn.talentTEK1()[pri:0, instance:test.facebook.GroupingOn@50cbc42f]" name="talentTEK1" class="test.facebook.GroupingOn"/>
+        <method signature="GroupingOn.talentTEK_Consulting()[pri:0, instance:test.facebook.GroupingOn@50cbc42f]" name="talentTEK_Consulting" class="test.facebook.GroupingOn"/>
       </group> <!-- smoke -->
       <group name="sanity">
-        <method signature="GroupingOn.talentTEK2()[pri:0, instance:test.facebook.GroupingOn@2cfb4a64]" name="talentTEK2" class="test.facebook.GroupingOn"/>
-        <method signature="GroupingOn.talentTEK_Consulting()[pri:0, instance:test.facebook.GroupingOn@2cfb4a64]" name="talentTEK_Consulting" class="test.facebook.GroupingOn"/>
+        <method signature="GroupingOn.talentTEK2()[pri:0, instance:test.facebook.GroupingOn@50cbc42f]" name="talentTEK2" class="test.facebook.GroupingOn"/>
+        <method signature="GroupingOn.talentTEK_Consulting()[pri:0, instance:test.facebook.GroupingOn@50cbc42f]" name="talentTEK_Consulting" class="test.facebook.GroupingOn"/>
       </group> <!-- sanity -->
     </groups>
-    <test name="Test in Chrome" duration-ms="36" started-at="2019-04-14T15:52:45Z" finished-at="2019-04-14T15:52:45Z">
-      <class name="test.facebook.AnnotationPrec">
-        <test-method status="PASS" signature="b4suite()[pri:0, instance:test.facebook.AnnotationPrec@7a92922]" name="b4suite" is-config="true" duration-ms="10" started-at="2019-04-14T11:52:45Z" finished-at="2019-04-14T11:52:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- b4suite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.facebook.AnnotationPrec@7a92922]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-04-14T11:52:45Z" finished-at="2019-04-14T11:52:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.facebook.AnnotationPrec@7a92922]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-04-14T11:52:45Z" finished-at="2019-04-14T11:52:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="my2Test()[pri:0, instance:test.facebook.AnnotationPrec@7a92922]" name="my2Test" duration-ms="5" started-at="2019-04-14T11:52:45Z" finished-at="2019-04-14T11:52:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- my2Test -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.facebook.AnnotationPrec@7a92922]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-04-14T11:52:45Z" finished-at="2019-04-14T11:52:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="myTest()[pri:0, instance:test.facebook.AnnotationPrec@7a92922]" name="myTest" duration-ms="1" started-at="2019-04-14T11:52:45Z" finished-at="2019-04-14T11:52:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- myTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.facebook.AnnotationPrec@7a92922]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-04-14T11:52:45Z" finished-at="2019-04-14T11:52:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.facebook.AnnotationPrec@7a92922]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-04-14T11:52:45Z" finished-at="2019-04-14T11:52:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.facebook.AnnotationPrec@7a92922]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-04-14T11:52:45Z" finished-at="2019-04-14T11:52:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.facebook.AnnotationPrec@7a92922]" name="afterSuite" is-config="true" duration-ms="1" started-at="2019-04-14T11:52:45Z" finished-at="2019-04-14T11:52:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- test.facebook.AnnotationPrec -->
+    <test name="Test in Chrome" duration-ms="42" started-at="2019-04-14T16:16:58Z" finished-at="2019-04-14T16:16:58Z">
       <class name="test.facebook.GroupingOn">
-        <test-method status="PASS" signature="Consulting2()[pri:0, instance:test.facebook.GroupingOn@2cfb4a64]" name="Consulting2" duration-ms="1" started-at="2019-04-14T11:52:45Z" finished-at="2019-04-14T11:52:45Z">
+        <test-method status="PASS" signature="Consulting2()[pri:0, instance:test.facebook.GroupingOn@50cbc42f]" name="Consulting2" duration-ms="1" started-at="2019-04-14T12:16:58Z" finished-at="2019-04-14T12:16:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Consulting2 -->
-        <test-method status="PASS" signature="talentTEK1()[pri:0, instance:test.facebook.GroupingOn@2cfb4a64]" name="talentTEK1" duration-ms="0" started-at="2019-04-14T11:52:45Z" finished-at="2019-04-14T11:52:45Z">
+        <test-method status="PASS" signature="talentTEK1()[pri:0, instance:test.facebook.GroupingOn@50cbc42f]" name="talentTEK1" duration-ms="1" started-at="2019-04-14T12:16:58Z" finished-at="2019-04-14T12:16:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- talentTEK1 -->
-        <test-method status="PASS" signature="talentTEK2()[pri:0, instance:test.facebook.GroupingOn@2cfb4a64]" name="talentTEK2" duration-ms="1" started-at="2019-04-14T11:52:45Z" finished-at="2019-04-14T11:52:45Z">
+        <test-method status="PASS" signature="talentTEK2()[pri:0, instance:test.facebook.GroupingOn@50cbc42f]" name="talentTEK2" duration-ms="0" started-at="2019-04-14T12:16:58Z" finished-at="2019-04-14T12:16:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- talentTEK2 -->
-        <test-method status="PASS" signature="talentTEK_Consulting()[pri:0, instance:test.facebook.GroupingOn@2cfb4a64]" name="talentTEK_Consulting" duration-ms="1" started-at="2019-04-14T11:52:45Z" finished-at="2019-04-14T11:52:45Z">
+        <test-method status="PASS" signature="talentTEK_Consulting()[pri:0, instance:test.facebook.GroupingOn@50cbc42f]" name="talentTEK_Consulting" duration-ms="1" started-at="2019-04-14T12:16:58Z" finished-at="2019-04-14T12:16:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- talentTEK_Consulting -->
       </class> <!-- test.facebook.GroupingOn -->
       <class name="test.facebook.DepandingOn">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.facebook.DepandingOn@71f2a7d5]" name="openBrowser" duration-ms="1" started-at="2019-04-14T11:52:45Z" finished-at="2019-04-14T11:52:45Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.facebook.DepandingOn@2ac1fdc4]" name="openBrowser" duration-ms="16" started-at="2019-04-14T12:16:58Z" finished-at="2019-04-14T12:16:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="SignIn()[pri:0, instance:test.facebook.DepandingOn@71f2a7d5]" name="SignIn" duration-ms="1" started-at="2019-04-14T11:52:45Z" depends-on-methods="test.facebook.DepandingOn.openBrowser" finished-at="2019-04-14T11:52:45Z">
+        <test-method status="PASS" signature="SignIn()[pri:0, instance:test.facebook.DepandingOn@2ac1fdc4]" name="SignIn" duration-ms="0" started-at="2019-04-14T12:16:58Z" depends-on-methods="test.facebook.DepandingOn.openBrowser" finished-at="2019-04-14T12:16:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignIn -->
-        <test-method status="PASS" signature="LogOut()[pri:0, instance:test.facebook.DepandingOn@71f2a7d5]" name="LogOut" duration-ms="1" started-at="2019-04-14T11:52:45Z" depends-on-methods="test.facebook.DepandingOn.SignIn" finished-at="2019-04-14T11:52:45Z">
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:test.facebook.DepandingOn@2ac1fdc4]" name="LogOut" duration-ms="1" started-at="2019-04-14T12:16:58Z" depends-on-methods="test.facebook.DepandingOn.SignIn" finished-at="2019-04-14T12:16:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogOut -->
       </class> <!-- test.facebook.DepandingOn -->
     </test> <!-- Test in Chrome -->
-  </suite> <!-- Sanity Suite -->
+  </suite> <!-- Regression Suite -->
 </testng-results>
