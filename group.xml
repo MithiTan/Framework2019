@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Group Test" >
+
+  <test name="Test in Chrome">
+  <groups>
+  <run>
+  <include name="regession">
+  </include>
+  </run>
+  </groups>
+  <groups>
+  <run>
+  <include name="sanity">
+  </include>
+  </run>
+  </groups>
+  <groups>
+  <run>
+  <include name="smoke">
+  </include>
+  </run>
+  </groups>
+  <classes>
+      <class name="test.facebook.AnnotationPrec"/>
+     
+        <class name="test.facebook.GroupingOn"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

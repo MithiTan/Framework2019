@@ -3,7 +3,62 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="test.facebook.PracticeAssert"/>
+      <class name="test.facebook.PracticeAssertTryCatch"/>
+      <class name="test.facebook.PrecTryCatch"/>
+      <class name="test.facebook.Config"/>
+      <class name="test.facebook.Practice"/>
+      <class name="test.facebook.AnnotationPrec"/>
+      <class name="test.facebook.DepandingOn"/>
+      <class name="test.facebook.LoginFacebook"/>
+      <class name="test.facebook.FacebookEmailandPassword"/>
+      <class name="test.facebook.GroupingOn"/>
+      <class name="test.facebook.PriorityPrec"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="test.facebook.PriorityPrec">
+        <methods>
+          <include name="goingToSkipTest"/>
+        </methods>
+      </class> <!-- test.facebook.PriorityPrec -->
+      <class name="test.facebook.AnnotationPrec">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="b4suite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- test.facebook.AnnotationPrec -->
+      <class name="test.facebook.FacebookEmailandPassword">
+        <methods>
+          <include name="beforeEachTest"/>
+          <include name="afterEachTest"/>
+        </methods>
+      </class> <!-- test.facebook.FacebookEmailandPassword -->
+      <class name="test.facebook.PracticeAssertTryCatch">
+        <methods>
+          <include name="trycatchTest"/>
+        </methods>
+      </class> <!-- test.facebook.PracticeAssertTryCatch -->
+      <class name="test.facebook.Practice">
+        <methods>
+          <include name="b4suite"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- test.facebook.Practice -->
+      <class name="test.facebook.LoginFacebook">
+        <methods>
+          <include name="beforeEachTest"/>
+          <include name="afterEachTest"/>
+        </methods>
+      </class> <!-- test.facebook.LoginFacebook -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
