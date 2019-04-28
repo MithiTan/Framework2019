@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Group Test]">
+  <test name="Test ">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.facebook.AnnotationPrec"/>
+      <class name="test.facebook.DepandingOn"/>
+      <class name="test.facebook.GroupingOn"/>
+    </classes>
+  </test> <!-- Test  -->
+</suite> <!-- Failed suite [Group Test] -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke Suite]">
+  <test name="Test in Chrome">
+    <classes>
+      <class name="test.facebook.DepandingOn"/>
+      <class name="test.facebook.GroupingOn"/>
+    </classes>
+  </test> <!-- Test in Chrome -->
+</suite> <!-- Failed suite [Smoke Suite] -->
