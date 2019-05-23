@@ -1,4 +1,4 @@
-package test.facebook;
+package base;
 
 public class CrossBrowser {
 	/* Cross-browser testing is to test  WebSite or application in multiple browsers- and making sure that it works consistently and	

@@ -8,6 +8,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import org.testng.annotations.Test;
 
+import base.Config;
+
 public class FacebookEmailandPassword  extends Config {
 	
 	
