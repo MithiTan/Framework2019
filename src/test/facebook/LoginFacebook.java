@@ -6,6 +6,8 @@ import org.openqa.selenium.By;
 
 import org.testng.annotations.Test;
 
+import base.Config;
+
 public class LoginFacebook extends Config{
 	
 

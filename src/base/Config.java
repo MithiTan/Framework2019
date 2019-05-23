@@ -1,4 +1,4 @@
-package test.facebook;
+package base;
 
 import java.util.concurrent.TimeUnit;
 
@@ -8,16 +8,19 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
-public class Config {
-public WebDriver driver;
+import utils.Function;
 
+public class Config extends Function{
 	
+	
+public WebDriver driver;
 
 	@BeforeMethod
 
 	public void beforeEachTest(){
 
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
+		//this the dynamic way to do 
 
 		// init the chrome driver
 

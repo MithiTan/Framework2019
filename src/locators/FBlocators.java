@@ -1,6 +1,6 @@
 package locators;
 
-public class Facebooklocators {
+public class FBlocators {
 	public	String email = "//*[@id='u_0_h']";
 
 
@@ -20,7 +20,7 @@ public class Facebooklocators {
 	public String lnLoc = "//input[@name='lastname']";
 
 
- 
+	public String signUpText = "";
 
 
 }

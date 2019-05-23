@@ -1,55 +1,331 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="7" passed="7">
+<testng-results skipped="1" failed="2" total="20" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression Suite" duration-ms="42" started-at="2019-04-14T16:16:58Z" finished-at="2019-04-14T16:16:58Z">
+  <suite name="Default suite" duration-ms="26788" started-at="2019-04-30T23:25:31Z" finished-at="2019-04-30T23:25:58Z">
     <groups>
       <group name="regression">
-        <method signature="GroupingOn.Consulting2()[pri:0, instance:test.facebook.GroupingOn@50cbc42f]" name="Consulting2" class="test.facebook.GroupingOn"/>
-        <method signature="GroupingOn.talentTEK_Consulting()[pri:0, instance:test.facebook.GroupingOn@50cbc42f]" name="talentTEK_Consulting" class="test.facebook.GroupingOn"/>
+        <method signature="GroupingOn.Consulting2()[pri:0, instance:test.facebook.GroupingOn@add0edd]" name="Consulting2" class="test.facebook.GroupingOn"/>
+        <method signature="GroupingOn.talentTEK_Consulting()[pri:0, instance:test.facebook.GroupingOn@add0edd]" name="talentTEK_Consulting" class="test.facebook.GroupingOn"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="GroupingOn.talentTEK1()[pri:0, instance:test.facebook.GroupingOn@50cbc42f]" name="talentTEK1" class="test.facebook.GroupingOn"/>
-        <method signature="GroupingOn.talentTEK_Consulting()[pri:0, instance:test.facebook.GroupingOn@50cbc42f]" name="talentTEK_Consulting" class="test.facebook.GroupingOn"/>
+        <method signature="GroupingOn.talentTEK1()[pri:0, instance:test.facebook.GroupingOn@add0edd]" name="talentTEK1" class="test.facebook.GroupingOn"/>
+        <method signature="GroupingOn.talentTEK_Consulting()[pri:0, instance:test.facebook.GroupingOn@add0edd]" name="talentTEK_Consulting" class="test.facebook.GroupingOn"/>
       </group> <!-- smoke -->
       <group name="sanity">
-        <method signature="GroupingOn.talentTEK2()[pri:0, instance:test.facebook.GroupingOn@50cbc42f]" name="talentTEK2" class="test.facebook.GroupingOn"/>
-        <method signature="GroupingOn.talentTEK_Consulting()[pri:0, instance:test.facebook.GroupingOn@50cbc42f]" name="talentTEK_Consulting" class="test.facebook.GroupingOn"/>
+        <method signature="GroupingOn.talentTEK2()[pri:0, instance:test.facebook.GroupingOn@add0edd]" name="talentTEK2" class="test.facebook.GroupingOn"/>
+        <method signature="GroupingOn.talentTEK_Consulting()[pri:0, instance:test.facebook.GroupingOn@add0edd]" name="talentTEK_Consulting" class="test.facebook.GroupingOn"/>
       </group> <!-- sanity -->
     </groups>
-    <test name="Test in Chrome" duration-ms="42" started-at="2019-04-14T16:16:58Z" finished-at="2019-04-14T16:16:58Z">
+    <test name="Default test" duration-ms="26788" started-at="2019-04-30T23:25:31Z" finished-at="2019-04-30T23:25:58Z">
+      <class name="test.facebook.AnnotationPrec">
+        <test-method status="PASS" signature="b4suite()[pri:0, instance:test.facebook.AnnotationPrec@4387b79e]" name="b4suite" is-config="true" duration-ms="6" started-at="2019-04-30T19:25:31Z" finished-at="2019-04-30T19:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b4suite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.facebook.AnnotationPrec@4387b79e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-04-30T19:25:31Z" finished-at="2019-04-30T19:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.facebook.AnnotationPrec@4387b79e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-04-30T19:25:45Z" finished-at="2019-04-30T19:25:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="my2Test()[pri:0, instance:test.facebook.AnnotationPrec@4387b79e]" name="my2Test" duration-ms="1" started-at="2019-04-30T19:25:45Z" finished-at="2019-04-30T19:25:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- my2Test -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.facebook.AnnotationPrec@4387b79e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-04-30T19:25:45Z" finished-at="2019-04-30T19:25:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.facebook.AnnotationPrec@4387b79e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-04-30T19:25:45Z" finished-at="2019-04-30T19:25:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="myTest()[pri:0, instance:test.facebook.AnnotationPrec@4387b79e]" name="myTest" duration-ms="1" started-at="2019-04-30T19:25:45Z" finished-at="2019-04-30T19:25:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.facebook.AnnotationPrec@4387b79e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-04-30T19:25:45Z" finished-at="2019-04-30T19:25:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.facebook.AnnotationPrec@4387b79e]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-04-30T19:25:58Z" finished-at="2019-04-30T19:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.facebook.AnnotationPrec@4387b79e]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-04-30T19:25:58Z" finished-at="2019-04-30T19:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.facebook.AnnotationPrec -->
+      <class name="test.facebook.PriorityPrec">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:test.facebook.PriorityPrec@2aa3cd93]" name="LoginTest" duration-ms="1" started-at="2019-04-30T19:25:31Z" finished-at="2019-04-30T19:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="changePass()[pri:2, instance:test.facebook.PriorityPrec@2aa3cd93]" name="changePass" duration-ms="2" started-at="2019-04-30T19:25:58Z" finished-at="2019-04-30T19:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePass -->
+        <test-method status="PASS" signature="LogOuttest()[pri:3, instance:test.facebook.PriorityPrec@2aa3cd93]" name="LogOuttest" duration-ms="1" started-at="2019-04-30T19:25:58Z" finished-at="2019-04-30T19:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOuttest -->
+        <test-method status="SKIP" signature="goingToSkipTest()[pri:4, instance:test.facebook.PriorityPrec@2aa3cd93]" name="goingToSkipTest" duration-ms="1" started-at="2019-04-30T19:25:58Z" finished-at="2019-04-30T19:25:58Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[use ticket name -requirment changed to skipping it]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: use ticket name -requirment changed to skipping it
+	at test.facebook.PriorityPrec.goingToSkipTest(PriorityPrec.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goingToSkipTest -->
+        <test-method status="PASS" signature="RunThisTest()[pri:5, instance:test.facebook.PriorityPrec@2aa3cd93]" name="RunThisTest" duration-ms="1" started-at="2019-04-30T19:25:58Z" finished-at="2019-04-30T19:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunThisTest -->
+      </class> <!-- test.facebook.PriorityPrec -->
+      <class name="test.facebook.ReadFromXl">
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:test.facebook.ReadFromXl@2cbb3d47]" name="beforeEachTest" is-config="true" duration-ms="5980" started-at="2019-04-30T19:25:31Z" finished-at="2019-04-30T19:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="testReadFromXL()[pri:0, instance:test.facebook.ReadFromXl@2cbb3d47]" name="testReadFromXL" duration-ms="299" started-at="2019-04-30T19:25:37Z" finished-at="2019-04-30T19:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadFromXL -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:test.facebook.ReadFromXl@2cbb3d47]" name="afterEachTest" is-config="true" duration-ms="2110" started-at="2019-04-30T19:25:38Z" finished-at="2019-04-30T19:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:test.facebook.ReadFromXl@2cbb3d47]" name="beforeEachTest" is-config="true" duration-ms="4770" started-at="2019-04-30T19:25:40Z" finished-at="2019-04-30T19:25:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="FAIL" signature="testWriteInXl()[pri:0, instance:test.facebook.ReadFromXl@2cbb3d47]" name="testWriteInXl" duration-ms="61" started-at="2019-04-30T19:25:45Z" finished-at="2019-04-30T19:25:45Z">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'
+System info: host: 'DESKTOP-18F0CA9', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\mithitan\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53918}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: e3b98b3f482b5cac619c8fab431b7614
+*** Element info: {Using=xpath, value=}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:14.666Z'
+System info: host: 'DESKTOP-18F0CA9', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\mithitan\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53918}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: e3b98b3f482b5cac619c8fab431b7614
+*** Element info: {Using=xpath, value=}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at test.facebook.ReadFromXl.testWriteInXl(ReadFromXl.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWriteInXl -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:test.facebook.ReadFromXl@2cbb3d47]" name="afterEachTest" is-config="true" duration-ms="134" started-at="2019-04-30T19:25:45Z" finished-at="2019-04-30T19:25:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- test.facebook.ReadFromXl -->
+      <class name="test.facebook.PracticeAssertTryCatch">
+        <test-method status="FAIL" signature="trycatchTest()[pri:0, instance:test.facebook.PracticeAssertTryCatch@6e75aa0d]" name="trycatchTest" duration-ms="4" started-at="2019-04-30T19:25:31Z" finished-at="2019-04-30T19:25:31Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [google] but found [gooogle]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [google] but found [gooogle]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at test.facebook.PracticeAssertTryCatch.trycatchTest(PracticeAssertTryCatch.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trycatchTest -->
+      </class> <!-- test.facebook.PracticeAssertTryCatch -->
+      <class name="test.facebook.LoginFacebook">
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:test.facebook.LoginFacebook@1198b989]" name="beforeEachTest" is-config="true" duration-ms="5385" started-at="2019-04-30T19:25:45Z" finished-at="2019-04-30T19:25:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="testFacebookSignup()[pri:0, instance:test.facebook.LoginFacebook@1198b989]" name="testFacebookSignup" duration-ms="195" started-at="2019-04-30T19:25:50Z" finished-at="2019-04-30T19:25:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFacebookSignup -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:test.facebook.LoginFacebook@1198b989]" name="afterEachTest" is-config="true" duration-ms="135" started-at="2019-04-30T19:25:50Z" finished-at="2019-04-30T19:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- test.facebook.LoginFacebook -->
+      <class name="test.facebook.PrecTryCatch">
+        <test-method status="PASS" signature="trycatchTest()[pri:0, instance:test.facebook.PrecTryCatch@7fc229ab]" name="trycatchTest" duration-ms="0" started-at="2019-04-30T19:25:31Z" finished-at="2019-04-30T19:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trycatchTest -->
+      </class> <!-- test.facebook.PrecTryCatch -->
       <class name="test.facebook.GroupingOn">
-        <test-method status="PASS" signature="Consulting2()[pri:0, instance:test.facebook.GroupingOn@50cbc42f]" name="Consulting2" duration-ms="1" started-at="2019-04-14T12:16:58Z" finished-at="2019-04-14T12:16:58Z">
+        <test-method status="PASS" signature="Consulting2()[pri:0, instance:test.facebook.GroupingOn@add0edd]" name="Consulting2" duration-ms="1" started-at="2019-04-30T19:25:31Z" finished-at="2019-04-30T19:25:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Consulting2 -->
-        <test-method status="PASS" signature="talentTEK1()[pri:0, instance:test.facebook.GroupingOn@50cbc42f]" name="talentTEK1" duration-ms="1" started-at="2019-04-14T12:16:58Z" finished-at="2019-04-14T12:16:58Z">
+        <test-method status="PASS" signature="talentTEK1()[pri:0, instance:test.facebook.GroupingOn@add0edd]" name="talentTEK1" duration-ms="0" started-at="2019-04-30T19:25:31Z" finished-at="2019-04-30T19:25:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- talentTEK1 -->
-        <test-method status="PASS" signature="talentTEK2()[pri:0, instance:test.facebook.GroupingOn@50cbc42f]" name="talentTEK2" duration-ms="0" started-at="2019-04-14T12:16:58Z" finished-at="2019-04-14T12:16:58Z">
+        <test-method status="PASS" signature="talentTEK2()[pri:0, instance:test.facebook.GroupingOn@add0edd]" name="talentTEK2" duration-ms="0" started-at="2019-04-30T19:25:31Z" finished-at="2019-04-30T19:25:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- talentTEK2 -->
-        <test-method status="PASS" signature="talentTEK_Consulting()[pri:0, instance:test.facebook.GroupingOn@50cbc42f]" name="talentTEK_Consulting" duration-ms="1" started-at="2019-04-14T12:16:58Z" finished-at="2019-04-14T12:16:58Z">
+        <test-method status="PASS" signature="talentTEK_Consulting()[pri:0, instance:test.facebook.GroupingOn@add0edd]" name="talentTEK_Consulting" duration-ms="0" started-at="2019-04-30T19:25:31Z" finished-at="2019-04-30T19:25:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- talentTEK_Consulting -->
       </class> <!-- test.facebook.GroupingOn -->
+      <class name="test.facebook.FacebookEmailandPassword">
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:test.facebook.FacebookEmailandPassword@7ff95560]" name="beforeEachTest" is-config="true" duration-ms="5298" started-at="2019-04-30T19:25:51Z" finished-at="2019-04-30T19:25:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="testFacebookEmailPass()[pri:0, instance:test.facebook.FacebookEmailandPassword@7ff95560]" name="testFacebookEmailPass" duration-ms="287" started-at="2019-04-30T19:25:56Z" finished-at="2019-04-30T19:25:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFacebookEmailPass -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:test.facebook.FacebookEmailandPassword@7ff95560]" name="afterEachTest" is-config="true" duration-ms="2086" started-at="2019-04-30T19:25:56Z" finished-at="2019-04-30T19:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- test.facebook.FacebookEmailandPassword -->
       <class name="test.facebook.DepandingOn">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.facebook.DepandingOn@2ac1fdc4]" name="openBrowser" duration-ms="16" started-at="2019-04-14T12:16:58Z" finished-at="2019-04-14T12:16:58Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.facebook.DepandingOn@527e5409]" name="openBrowser" duration-ms="2" started-at="2019-04-30T19:25:45Z" finished-at="2019-04-30T19:25:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="SignIn()[pri:0, instance:test.facebook.DepandingOn@2ac1fdc4]" name="SignIn" duration-ms="0" started-at="2019-04-14T12:16:58Z" depends-on-methods="test.facebook.DepandingOn.openBrowser" finished-at="2019-04-14T12:16:58Z">
+        <test-method status="PASS" signature="SignIn()[pri:0, instance:test.facebook.DepandingOn@527e5409]" name="SignIn" duration-ms="1" started-at="2019-04-30T19:25:45Z" depends-on-methods="test.facebook.DepandingOn.openBrowser" finished-at="2019-04-30T19:25:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignIn -->
-        <test-method status="PASS" signature="LogOut()[pri:0, instance:test.facebook.DepandingOn@2ac1fdc4]" name="LogOut" duration-ms="1" started-at="2019-04-14T12:16:58Z" depends-on-methods="test.facebook.DepandingOn.SignIn" finished-at="2019-04-14T12:16:58Z">
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:test.facebook.DepandingOn@527e5409]" name="LogOut" duration-ms="1" started-at="2019-04-30T19:25:45Z" depends-on-methods="test.facebook.DepandingOn.SignIn" finished-at="2019-04-30T19:25:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogOut -->
       </class> <!-- test.facebook.DepandingOn -->
-    </test> <!-- Test in Chrome -->
-  </suite> <!-- Regression Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

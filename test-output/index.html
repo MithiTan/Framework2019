@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Regression_Suite">
-              <span class="suite-name border-passed">Regression Suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Regression_Suite">
-                    <span>C:\Users\mithitan\Documents\GitHub\Framework2019\regressiontesting.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\mithitan\AppData\Local\Temp\testng-eclipse-1018219595\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Regression_Suite">
-                    <span class="test-stats">1 test</span>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Regression_Suite">
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
                     <span>3 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Regression_Suite">
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Regression_Suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Regression_Suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Regression_Suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,51 +91,134 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods,   7 passed</span>
+                    <span class="method-stats">20 methods, 2 failed,  1 skipped,  17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.ReadFromXl" hash-for-method="testWriteInXl">testWriteInXl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.PracticeAssertTryCatch" hash-for-method="trycatchTest">trycatchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Default_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.PriorityPrec" hash-for-method="goingToSkipTest">goingToSkipTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Regression_Suite" class="hide-methods passed suite-Regression_Suite"> (hide)</a> <!-- hide-methods passed suite-Regression_Suite -->
-                      <a href="#" panel-name="suite-Regression_Suite" class="show-methods passed suite-Regression_Suite"> (show)</a> <!-- show-methods passed suite-Regression_Suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Regression_Suite">
+                    <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="test.facebook.GroupingOn" hash-for-method="Consulting2">Consulting2</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.GroupingOn" hash-for-method="Consulting2">Consulting2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="test.facebook.DepandingOn" hash-for-method="LogOut">LogOut</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.DepandingOn" hash-for-method="LogOut">LogOut</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="test.facebook.DepandingOn" hash-for-method="SignIn">SignIn</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.PriorityPrec" hash-for-method="LogOuttest">LogOuttest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="test.facebook.DepandingOn" hash-for-method="openBrowser">openBrowser</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.PriorityPrec" hash-for-method="LoginTest">LoginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="test.facebook.GroupingOn" hash-for-method="talentTEK1">talentTEK1</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.PriorityPrec" hash-for-method="RunThisTest">RunThisTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="test.facebook.GroupingOn" hash-for-method="talentTEK2">talentTEK2</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.DepandingOn" hash-for-method="SignIn">SignIn</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="test.facebook.GroupingOn" hash-for-method="talentTEK_Consulting">talentTEK_Consulting</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.PriorityPrec" hash-for-method="changePass">changePass</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Regression_Suite -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.AnnotationPrec" hash-for-method="my2Test">my2Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.AnnotationPrec" hash-for-method="myTest">myTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.DepandingOn" hash-for-method="openBrowser">openBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.GroupingOn" hash-for-method="talentTEK1">talentTEK1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.GroupingOn" hash-for-method="talentTEK2">talentTEK2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.GroupingOn" hash-for-method="talentTEK_Consulting">talentTEK_Consulting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.FacebookEmailandPassword" hash-for-method="testFacebookEmailPass">testFacebookEmailPass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.LoginFacebook" hash-for-method="testFacebookSignup">testFacebookSignup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.ReadFromXl" hash-for-method="testReadFromXL">testReadFromXL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.facebook.PrecTryCatch" hash-for-method="trycatchTest">trycatchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -146,8 +229,170 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Regression_Suite" class="panel Regression_Suite">
-          <div class="suite-Regression_Suite-class-passed">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.facebook.PracticeAssertTryCatch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="trycatchTest">
+                  </a> <!-- trycatchTest -->
+                  <span class="method-name">trycatchTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [google] but found [gooogle]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at test.facebook.PracticeAssertTryCatch.trycatchTest(PracticeAssertTryCatch.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.facebook.ReadFromXl</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWriteInXl">
+                  </a> <!-- testWriteInXl -->
+                  <span class="method-name">testWriteInXl</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;&apos; is not a valid XPath expression.
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:14.666Z&apos;
+System info: host: &apos;DESKTOP-18F0CA9&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\mithitan\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53918}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: e3b98b3f482b5cac619c8fab431b7614
+*** Element info: {Using=xpath, value=}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at test.facebook.ReadFromXl.testWriteInXl(ReadFromXl.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test.facebook.PriorityPrec</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="goingToSkipTest">
+                  </a> <!-- goingToSkipTest -->
+                  <span class="method-name">goingToSkipTest</span>
+                  <div class="stack-trace">org.testng.SkipException: use ticket name -requirment changed to skipping it
+	at test.facebook.PriorityPrec.goingToSkipTest(PriorityPrec.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+          <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">test.facebook.GroupingOn</span>
@@ -182,8 +427,59 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression_Suite-class-passed -->
-          <div class="suite-Regression_Suite-class-passed">
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.facebook.PriorityPrec</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LogOuttest">
+                  </a> <!-- LogOuttest -->
+                  <span class="method-name">LogOuttest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTest">
+                  </a> <!-- LoginTest -->
+                  <span class="method-name">LoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RunThisTest">
+                  </a> <!-- RunThisTest -->
+                  <span class="method-name">RunThisTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePass">
+                  </a> <!-- changePass -->
+                  <span class="method-name">changePass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.facebook.FacebookEmailandPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFacebookEmailPass">
+                  </a> <!-- testFacebookEmailPass -->
+                  <span class="method-name">testFacebookEmailPass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">test.facebook.DepandingOn</span>
@@ -211,42 +507,167 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression_Suite-class-passed -->
-        </div> <!-- panel Regression_Suite -->
-        <div panel-name="test-xml-Regression_Suite" class="panel">
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.facebook.PrecTryCatch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="trycatchTest">
+                  </a> <!-- trycatchTest -->
+                  <span class="method-name">trycatchTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.facebook.LoginFacebook</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFacebookSignup">
+                  </a> <!-- testFacebookSignup -->
+                  <span class="method-name">testFacebookSignup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.facebook.AnnotationPrec</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="my2Test">
+                  </a> <!-- my2Test -->
+                  <span class="method-name">my2Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="myTest">
+                  </a> <!-- myTest -->
+                  <span class="method-name">myTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.facebook.ReadFromXl</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReadFromXL">
+                  </a> <!-- testReadFromXL -->
+                  <span class="method-name">testReadFromXL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\mithitan\Documents\GitHub\Framework2019\regressiontesting.xml</span>
+            <span class="header-content">C:\Users\mithitan\AppData\Local\Temp\testng-eclipse-1018219595\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Regression Suite&quot;&gt;
-  &lt;test name=&quot;Test in Chrome&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;test.facebook.PracticeAssertTryCatch&quot;/&gt;
+      &lt;class name=&quot;test.facebook.PrecTryCatch&quot;/&gt;
+      &lt;class name=&quot;test.facebook.ReadFromXl&quot;/&gt;
+      &lt;class name=&quot;test.facebook.AnnotationPrec&quot;/&gt;
       &lt;class name=&quot;test.facebook.DepandingOn&quot;/&gt;
+      &lt;class name=&quot;test.facebook.LoginFacebook&quot;/&gt;
+      &lt;class name=&quot;test.facebook.FacebookEmailandPassword&quot;/&gt;
+      &lt;class name=&quot;base.CrossBrowser&quot;/&gt;
+      &lt;class name=&quot;locators.Facebooklocators&quot;/&gt;
+      &lt;class name=&quot;Utils.Xls_Reader&quot;/&gt;
+      &lt;class name=&quot;base.Config&quot;/&gt;
+      &lt;class name=&quot;values.FacebookValues&quot;/&gt;
       &lt;class name=&quot;test.facebook.GroupingOn&quot;/&gt;
+      &lt;class name=&quot;test.facebook.PriorityPrec&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test in Chrome --&gt;
-&lt;/suite&gt; &lt;!-- Regression Suite --&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+  &lt;test name=&quot;Default test(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.facebook.PriorityPrec&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;goingToSkipTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.facebook.PriorityPrec --&gt;
+      &lt;class name=&quot;test.facebook.FacebookEmailandPassword&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;beforeEachTest&quot;/&gt;
+          &lt;include name=&quot;afterEachTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.facebook.FacebookEmailandPassword --&gt;
+      &lt;class name=&quot;test.facebook.LoginFacebook&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;beforeEachTest&quot;/&gt;
+          &lt;include name=&quot;afterEachTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.facebook.LoginFacebook --&gt;
+      &lt;class name=&quot;test.facebook.PracticeAssertTryCatch&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;trycatchTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.facebook.PracticeAssertTryCatch --&gt;
+      &lt;class name=&quot;test.facebook.AnnotationPrec&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;beforeMethod&quot;/&gt;
+          &lt;include name=&quot;afterSuite&quot;/&gt;
+          &lt;include name=&quot;beforeTest&quot;/&gt;
+          &lt;include name=&quot;afterMethod&quot;/&gt;
+          &lt;include name=&quot;b4suite&quot;/&gt;
+          &lt;include name=&quot;afterTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.facebook.AnnotationPrec --&gt;
+      &lt;class name=&quot;test.facebook.ReadFromXl&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;beforeEachTest&quot;/&gt;
+          &lt;include name=&quot;afterEachTest&quot;/&gt;
+          &lt;include name=&quot;testWriteInXl&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.facebook.ReadFromXl --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Regression_Suite" class="panel">
+        <div panel-name="testlist-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Regression Suite</span>
+            <span class="header-content">Tests for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test in Chrome (2 classes)</span>
+                <span class="test-name">Default test (14 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Default test(failed) (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Regression_Suite" class="panel">
+        <div panel-name="group-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Regression Suite</span>
+            <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
@@ -287,111 +708,313 @@
             </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Regression_Suite" class="panel">
+        <div panel-name="times-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Regression Suite</span>
+            <span class="header-content">Times for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Regression_Suite');
-function tableData_Regression_Suite() {
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(20);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'openBrowser')
-data.setCell(0, 2, 'test.facebook.DepandingOn')
-data.setCell(0, 3, 16);
+data.setCell(0, 1, 'testReadFromXL')
+data.setCell(0, 2, 'test.facebook.ReadFromXl')
+data.setCell(0, 3, 299);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'talentTEK_Consulting')
-data.setCell(1, 2, 'test.facebook.GroupingOn')
-data.setCell(1, 3, 1);
+data.setCell(1, 1, 'testFacebookEmailPass')
+data.setCell(1, 2, 'test.facebook.FacebookEmailandPassword')
+data.setCell(1, 3, 287);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'LogOut')
-data.setCell(2, 2, 'test.facebook.DepandingOn')
-data.setCell(2, 3, 1);
+data.setCell(2, 1, 'testFacebookSignup')
+data.setCell(2, 2, 'test.facebook.LoginFacebook')
+data.setCell(2, 3, 195);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Consulting2')
-data.setCell(3, 2, 'test.facebook.GroupingOn')
-data.setCell(3, 3, 1);
+data.setCell(3, 1, 'testWriteInXl')
+data.setCell(3, 2, 'test.facebook.ReadFromXl')
+data.setCell(3, 3, 61);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'talentTEK1')
-data.setCell(4, 2, 'test.facebook.GroupingOn')
-data.setCell(4, 3, 1);
+data.setCell(4, 1, 'trycatchTest')
+data.setCell(4, 2, 'test.facebook.PracticeAssertTryCatch')
+data.setCell(4, 3, 4);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'SignIn')
-data.setCell(5, 2, 'test.facebook.DepandingOn')
-data.setCell(5, 3, 0);
+data.setCell(5, 1, 'changePass')
+data.setCell(5, 2, 'test.facebook.PriorityPrec')
+data.setCell(5, 3, 2);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'talentTEK2')
-data.setCell(6, 2, 'test.facebook.GroupingOn')
-data.setCell(6, 3, 0);
-window.suiteTableData['Regression_Suite']= { tableData: data, tableDiv: 'times-div-Regression_Suite'}
+data.setCell(6, 1, 'openBrowser')
+data.setCell(6, 2, 'test.facebook.DepandingOn')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'my2Test')
+data.setCell(7, 2, 'test.facebook.AnnotationPrec')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Consulting2')
+data.setCell(8, 2, 'test.facebook.GroupingOn')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'RunThisTest')
+data.setCell(9, 2, 'test.facebook.PriorityPrec')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'myTest')
+data.setCell(10, 2, 'test.facebook.AnnotationPrec')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'LoginTest')
+data.setCell(11, 2, 'test.facebook.PriorityPrec')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'LogOuttest')
+data.setCell(12, 2, 'test.facebook.PriorityPrec')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'SignIn')
+data.setCell(13, 2, 'test.facebook.DepandingOn')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'LogOut')
+data.setCell(14, 2, 'test.facebook.DepandingOn')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'goingToSkipTest')
+data.setCell(15, 2, 'test.facebook.PriorityPrec')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'talentTEK_Consulting')
+data.setCell(16, 2, 'test.facebook.GroupingOn')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'talentTEK2')
+data.setCell(17, 2, 'test.facebook.GroupingOn')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'talentTEK1')
+data.setCell(18, 2, 'test.facebook.GroupingOn')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'trycatchTest')
+data.setCell(19, 2, 'test.facebook.PrecTryCatch')
+data.setCell(19, 3, 0);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 ms</span>
-              <div id="times-div-Regression_Suite">
-              </div> <!-- times-div-Regression_Suite -->
+              <span class="suite-total-time">Total running time: 859 ms</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Regression_Suite" class="panel">
+        <div panel-name="reporter-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Regression Suite</span>
+            <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Regression_Suite" class="panel">
+        <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Regression_Suite" class="panel">
+        <div panel-name="chronological-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">test.facebook.DepandingOn</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">openBrowser</span>
+              <div class="chronological-class-name">test.facebook.AnnotationPrec</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">b4suite</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.facebook.PracticeAssertTryCatch</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">SignIn</span>
-                <span class="method-start">20 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">LogOut</span>
-                <span class="method-start">21 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">trycatchTest</span>
+                <span class="method-start">13 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.facebook.GroupingOn</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Consulting2</span>
-                <span class="method-start">22 ms</span>
+                <span class="method-start">19 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">talentTEK1</span>
-                <span class="method-start">24 ms</span>
+                <span class="method-start">21 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">talentTEK2</span>
-                <span class="method-start">26 ms</span>
+                <span class="method-start">22 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">talentTEK_Consulting</span>
-                <span class="method-start">27 ms</span>
+                <span class="method-start">23 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.facebook.PrecTryCatch</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">trycatchTest</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.facebook.PriorityPrec</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LoginTest</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.facebook.ReadFromXl</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTest</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testReadFromXL</span>
+                <span class="method-start">6007 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTest</span>
+                <span class="method-start">6307 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTest</span>
+                <span class="method-start">8418 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testWriteInXl</span>
+                <span class="method-start">13188 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTest</span>
+                <span class="method-start">13251 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.facebook.AnnotationPrec</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">13386 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">my2Test</span>
+                <span class="method-start">13387 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">13389 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">13390 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">myTest</span>
+                <span class="method-start">13390 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">13391 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.facebook.DepandingOn</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">13392 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SignIn</span>
+                <span class="method-start">13398 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LogOut</span>
+                <span class="method-start">13400 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.facebook.LoginFacebook</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTest</span>
+                <span class="method-start">13401 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFacebookSignup</span>
+                <span class="method-start">18786 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTest</span>
+                <span class="method-start">18981 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.facebook.FacebookEmailandPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTest</span>
+                <span class="method-start">19116 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFacebookEmailPass</span>
+                <span class="method-start">24414 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTest</span>
+                <span class="method-start">24701 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.facebook.PriorityPrec</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">changePass</span>
+                <span class="method-start">26788 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LogOuttest</span>
+                <span class="method-start">26790 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">goingToSkipTest</span>
+                <span class="method-start">26791 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RunThisTest</span>
+                <span class="method-start">26793 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.facebook.AnnotationPrec</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">26794 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">26824 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
